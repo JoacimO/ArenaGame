@@ -1,0 +1,51 @@
+﻿  Ability.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Ability.cpp(98,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Ability.cpp(103,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Arena.cpp
+  Consumable.cpp
+  Enemy.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Enemy.cpp(9,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Enemy.cpp(50,64): warning C4305: 'argument': truncation from 'int' to 'bool'
+  Entity.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Entity.cpp(28,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Entity.cpp(80,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Entity.cpp(81,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Entity.cpp(253,28): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  FightManager.cpp
+  Game.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Game.cpp(90,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Game.cpp(178,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Inventory.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Inventory.cpp(31,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Inventory.cpp(36,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Item.cpp
+  Location.cpp
+  LocationOption.cpp
+  Mage.cpp
+  Main.cpp
+  Player.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Player.cpp(60,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Player.cpp(206,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PlayerClass.cpp
+  PlayerRoom.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(27,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(61,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(87,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(101,6): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(103,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(129,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\PlayerRoom.cpp(135,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Rogue.cpp
+  Shop.cpp
+  TownManager.cpp
+  Trainer.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Trainer.cpp(20,87): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Entity.cpp(223): warning C4715: 'Entity::getAmountOfDots': not all control paths return a value
+  Compiling...
+  Warrior.cpp
+  Wearable.cpp
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Wearable.cpp(73,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\arenasimNew\Wearable.cpp(123,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  arenasimNew.vcxproj -> C:\Users\Thix\Desktop\Ny mapp (10)\arenasimNew\x64\Debug\arenasimNew.exe

@@ -1,0 +1,35 @@
+﻿  Ability.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Ability.cpp(96,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Ability.cpp(101,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Arena.cpp
+  Enemy.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Enemy.cpp(9,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Entity.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Entity.cpp(204,28): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  FightManager.cpp
+  Game.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Game.cpp(167,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Location.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Location.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Location.cpp(65,13): warning C4018: '<=': signed/unsigned mismatch
+  LocationOption.cpp
+  Mage.cpp
+  Main.cpp
+  Player.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Player.cpp(145,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PlayerClass.cpp
+  PlayerRoom.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\PlayerRoom.cpp(53,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Rogue.cpp
+  TownManager.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\TownManager.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\TownManager.cpp(26,23): warning C4018: '<': signed/unsigned mismatch
+  Trainer.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Trainer.cpp(17,23): warning C4018: '<': signed/unsigned mismatch
+  Warrior.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimNew\Entity.cpp(181): warning C4715: 'Entity::getAmountOfDots': not all control paths return a value
+  All 513 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  arenasimNew.vcxproj -> C:\Users\Thix\source\repos\arenasimNew - kopia\Release\arenasimNew.exe

@@ -1,0 +1,20 @@
+﻿  Ability.cpp
+  Enemy.cpp
+  Entity.cpp
+  FightManager.cpp
+  Game.cpp
+  Location.cpp
+  LocationOption.cpp
+  Mage.cpp
+  Main.cpp
+  Player.cpp
+  PlayerClass.cpp
+  PlayerRoom.cpp
+  Rogue.cpp
+  Shop.cpp
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimnew\Shop.cpp(1,10): fatal error C1083: Cannot open include file: 'Shop.h': No such file or directory
+  TownManager.cpp
+  Trainer.cpp
+  Warrior.cpp
+  Generating Code...
+C:\Users\Thix\source\repos\arenasimNew - kopia\arenasimnew\Entity.cpp(188): warning C4715: 'Entity::getAmountOfDots': not all control paths return a value

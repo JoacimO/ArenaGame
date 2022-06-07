@@ -1,0 +1,140 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF630A00C80 -il C:\\Users\\Thix\\AppData\\Local\\Temp\\_CL_665717deast -typedil -f Shop.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\Shop.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Thix\\source\\repos\\arenasimNew - kopia\\arenasimNew -analyze:rulesetdirectory ;E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.2\\Include\\um -external:I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.2\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.2\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/shop.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f9deec320f1e9e7fabadbf9377abc74c2a6f73a2bc5794f76a2a7368fa80159e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/shop.h"
+          },
+          "hashes": {
+            "sha-256": "f6d607fc5407bdedd1e94129f30746c9fb3e618e50d03b02200f7efccbd628b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/location.h"
+          },
+          "hashes": {
+            "sha-256": "4f000c01f59c365eea0048c46c95deb4dc1af8694881d876f3e7cebc52ac8fdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/player.h"
+          },
+          "hashes": {
+            "sha-256": "54dc1939380ff610f7d7e6ce228ee0274537a7fe2c7b12a6baa5779bd3decb39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/entity.h"
+          },
+          "hashes": {
+            "sha-256": "734f8b49d9e589a58b95e282c303f5166ca157c6a82ee85a5e4c131da4521b26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/ability.h"
+          },
+          "hashes": {
+            "sha-256": "06c3c6015cd18f76f7e7ca9c31573e4f53602080e8edf53877ee4c5f2b402177"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/playerclass.h"
+          },
+          "hashes": {
+            "sha-256": "ddb7fd9e527dd4ffd397284c8923e79aca69a30e438b0f7f6787b90ac7361a9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/mage.h"
+          },
+          "hashes": {
+            "sha-256": "f939a3ffeddd54c75dd892880d72e677bb8084f02bceb7266f1789861e425eb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/rogue.h"
+          },
+          "hashes": {
+            "sha-256": "f3f6611b64de02e5d4b80f3221b857f459b5a90196754a2aac79942937c47551"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/warrior.h"
+          },
+          "hashes": {
+            "sha-256": "388a982f45856de1754a0aa3f9654e2916e0b7181100d35b453b0c02b8baf3e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/locationoption.h"
+          },
+          "hashes": {
+            "sha-256": "40d3e3b9d374c95c4c45c530f17941d41a345772bd258676d4bfe9d45395dcb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/item.h"
+          },
+          "hashes": {
+            "sha-256": "25eee1c2bac453109c146a3bc5e18cea07d23db7a745d33b744e90806bbbc461"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/consumable.h"
+          },
+          "hashes": {
+            "sha-256": "ee099c1ec6946835181eef906f6581ac0f7d790235b25e989cb07dacfa46adf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/thix/source/repos/arenasimnew - kopia/arenasimnew/wearable.h"
+          },
+          "hashes": {
+            "sha-256": "22d7e3fa13f6b2e4ae98e0e94bf57f12d2f96901785e2f707344d24eff82fc57"
+          }
+        }
+      ]
+    }
+  ]
+}
